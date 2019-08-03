@@ -6,6 +6,7 @@ body {
     color: #ddd;
     background-image: url("https://image.freepik.com/photos-gratuite/pizza-au-jambon-au-fromage-au-pepperoni-fond-noir-isole_10307-152.jpg");
     background-size: cover;
+    font-family: 'Oleo Script', cursive;
     height: 1000px;
 }
 #home {
@@ -33,4 +34,8 @@ body {
   .nav a.active {
     background-color: ;
     color: white;
+  }
+  #menu {
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Petit Formal Script', cursive;
   }
