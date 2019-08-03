@@ -33,7 +33,7 @@ body {
   
   .nav a.active {
     background-color: white;
-    color: white;
+    color: black;
   }
   #menu {
     font-family: 'Oleo Script', cursive;
