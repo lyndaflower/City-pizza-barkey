@@ -46,6 +46,7 @@ body {
       font-size: 20px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       background-image: url("https://ak1.picdn.net/shutterstock/videos/24456671/thumb/1.jpg");
+      height: 500px;
       background-size: cover;
       color: antiquewhite;
   }
