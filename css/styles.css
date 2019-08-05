@@ -38,7 +38,10 @@ body {
   #menu {
     font-family: 'Oleo Script', cursive;
     font-family: 'Petit Formal Script', cursive;
+<<<<<<< HEAD
     background-image: url("")
+=======
+>>>>>>> 279926391533bc8f54a89fd8ca888ebb7e699597
   }
   form {
       width: 600px;
