@@ -1,0 +1,53 @@
+body {
+    background-image: url("")
+}
+.jumbotron {
+    text-align: center;
+    color: #ddd;
+    background-image: url("https://image.freepik.com/photos-gratuite/pizza-au-jambon-au-fromage-au-pepperoni-fond-noir-isole_10307-152.jpg");
+    background-size: cover;
+    font-family: 'Oleo Script', cursive;
+    height: 1000px;
+}
+#home {
+    padding-block-start: 100px;
+    font-weight: bolder;
+}
+.nav {
+    background-color : black;
+}
+.nav a {
+    display: inline-block;
+    color : white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav a.active {
+    background-color: white;
+    color: black;
+  }
+  #menu {
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Petit Formal Script', cursive;
+    background-image: url("")
+  }
+  form {
+      width: 600px;
+      margin: auto;
+      padding: 30px;
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-image: url("https://ak1.picdn.net/shutterstock/videos/24456671/thumb/1.jpg");
+      height: 500px;
+      background-size: cover;
+      color: antiquewhite;
+  }

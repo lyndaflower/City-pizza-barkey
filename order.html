@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>City Pizza Barkey</title>
+</head>
+<body>
+    <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a class="active" href="#order">Order</a>
+    </div>
+    <div class="container">
+            <div class="well">
+                <div id="order">
+                    <h1>WHY STEP-OUT, WHEN WE CAN STEP IN</h1>
+                    <form>
+                        <h1>Select size</h1>
+                        <select style="color:rgb(29, 3, 3)" id="select" required><br>
+                                <option ></option>
+                                <option id="large" value="large">Large</option>
+                                <option id="medium" value="medium">Medium</option>
+                                <option id="small" value="small">Small</option>
+                         </select>
+                         <h1></h1>
+                         <select name="crust" id="crust" required>
+                             <button >select crust</button>
+                             <button type="radio" id="crust1" value="deep dish">deep dish</button>
+                             <button id="crust2" value="pretzel">pretzel</button>
+                             <button id="crust3" value="stuffed">stuffed</button>
+                             <button id="crust4" value="boneless">boneless</button>
+                         </select>
+                         <label for="topping" id="label" ></label><br>
+                         <select style="color :cornflowerblue;" id ="select" required>
+                                <option >choose topping </option>
+                                <option id="top1" value="Pepperoni">Pepperoni</option>
+                                <option id="top2" value="Mushrooms">Mushrooms</option>
+                                <option id="top3" value="Onions">Onions</option>
+                                <option id="top4" value="Sausage">Sausage</option>
+                            </select><br>
+                            Enter your name:<input type="text"  name="name" class="form-control name" required><br>
+                            Enter location: <input type="text"  name="location" class="form-control location" required><br>
+                            <button type="send" class="send">send order</button>
+                            <p id="amount">
+
+                            </p>     
+                            <button type="send" class="send2">Another order</button>
+                    </form>
+                 </div>
+             </div>
+        </div>
+</body>
+</html>
