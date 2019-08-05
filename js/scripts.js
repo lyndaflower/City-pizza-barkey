@@ -1,13 +1,9 @@
-function Detail(name, location) {
-    this.name = name;
-    this.location = location;
+function Order(crust, size, topping, number){
+    this.crust = crust;
+    this.size = size;
+    this.topping = topping;
+    this.number = number;
 }
-$(document).ready(function(){
-$("form#select").send(function(event){
-    var inputtedName = $("input#name").val();
-    var inputLocation = $("inputLocation").val();
-    var newDetail = $("inputName, inputLocation");
-})
-if ((pepperoni == large) && (crust == deep dish){
-    alert();
-});
+Order.prototype.myOrder = function(){
+    return "thanks, you have ordered "+ this.crust + this.topping + this.number ;
+}
