@@ -1,5 +1,6 @@
 body {
-    background-image: url("")
+    background-image: url("https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg");
+    background-size: cover;
 }
 .jumbotron {
     text-align: center;
@@ -42,7 +43,7 @@ body {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1; 
-    width: 100%;
+    width: 80%;
     padding: 20px;
   }
   form {
@@ -51,28 +52,33 @@ body {
       padding: 30px;
       font-size: 20px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      background-image: url("https://images.pexels.com/photos/1260968/pexels-photo-1260968.jpeg");
       height: 500px;
-      background-size: cover;
       color: antiquewhite;
+      position: absolute; 
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1; 
+      width: 60%;
   }
   #head, #par{
     font-family: 'Caveat Brush', cursive;
     text-align: center;
+    color: white;
   }
   #head {
       padding-block-start: 80px;
   }
   #par {
       padding-block-end: 100px;
+      font-weight: bolder;
   }
   .menu {
       background-image: url("https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg");
-      background-repeat: no-repeat;
       background-size: cover;
   }
-  body {
-      background-image: url("https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg");
-      background-size: cover;
+  #myOrder{
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    color: #ddd;
+    padding-block-end: 70px;
   }
-
