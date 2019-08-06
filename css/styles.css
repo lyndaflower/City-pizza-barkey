@@ -52,7 +52,7 @@ body {
       padding: 30px;
       font-size: 20px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      height: 500px;
+      height: 700px;
       color: antiquewhite;
       position: absolute; 
       background: rgb(0, 0, 0);
@@ -78,7 +78,8 @@ body {
   }
   #myOrder{
     font-family: 'Oleo Script', cursive;
-    text-align: center;
+    padding-left: 40px;
     color: #ddd;
     padding-block-end: 70px;
+    padding-block-start: 30px;
   }

@@ -22,21 +22,23 @@
             <div id="order">
                  <h1 id="myOrder">WHY STEP-OUT, WHEN WE CAN STEP IN</h1>
             <form>
-            <select style="color:rgb(29, 3, 3)" id="select"><br>
-                    <option >Select size </option>
+                <h2>Select pizza size</h2>
+            <select style="color:rgb(29, 3, 3)" id="lar" required><br>
+                    <option>Select size </option>
                     <option value="large">Large</option>
                     <option value="medium">Medium</option>
                     <option value="small">Small</option>
             </select>
-            <select name="crust" id="crust" required>
+            <h2>Select pizza crust</h2>
+            <select name="crust" id="deep" required>
                      <option value="">select crust</option>
                      <option value="deep dish">deep dish</option>
                      <option value="pretzel">pretzel</option>
                      <option value="stuffed">stuffed</option>
                      <option value="boneless">boneless</option>
             </select>
-            <label for="topping"></label><br>
-            <select style="color :cornflowerblue;" id ="select" required>
+            <h2>Select topping</h2>
+            <select id="onio"style="color :cornflowerblue;" required>
                      <option >choose topping </option>
                      <option value="Pepperoni">Pepperoni</option>
                      <option value="Mushrooms">Mushrooms</option>
@@ -49,10 +51,9 @@
                      <option value="Pineapple">Pineapple</option>
                      <option value="Spinach">Spinach</option>
             </select><br>
-                    Enter number of pizza you want 
-                    <input type="text" name="number" required>
-    Enter your name:<input type="text" name="name" class="form-control name" required><br>
-    Enter location: <input type="text" name="location" class="form-control location" required><br>
+    Enter number of pizza:  <input type="text" id="number" class="form-control number">
+    Enter your name:<input type="text" id="name" name="name" class="form-control name" required><br>
+    Enter location: <input type="text" id="loc" name="location" class="form-control location" required><br>
                     <button type="send" class="send">send order</button>
                     <p id="order">
 
