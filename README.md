@@ -1,6 +1,6 @@
 # City-pizza-barkey
-#### City pizza-barkey is where you can recommand , August 6 2019
-#### By MANIRAKORA Alexie
+#### City pizza-barkey is where you can recommand pizza you want, August 6 2019
+#### By UMURERWA L.Flower
 ### Author
 https://github.com/lyndaflower
 ## Description
@@ -24,7 +24,7 @@ Languages I have used:HTML(HyperText Markerup Language) for designing pages.
 Tools that I have used:Visual Studio Code as a text editor.
                        GitHub for hosting my project and keep it safe.
 ## Support and contact details
- If you got any questions,an ideas or concerns.Just contact me on email :umurerwalynda@gmail.com.
+ If you got any questions,an ideas you can use an email :umurerwalynda@gmail.com.
 ### License
 MIT License
 
