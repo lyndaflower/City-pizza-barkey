@@ -1,25 +1,38 @@
-<<<<<<< HEAD
-function Order(size, crust, topping){
-    this.size = size;
+function Order(crust, size, topping){
     this.crust = crust;
+    this.size = size;
     this.topping = topping;
 }
-$(document).ready(function(){
-    $("")
-})
-  
-=======
-function Detail(name, location) {
-    this.name = name;
-    this.location = location;
+Order.prototype.myOrder = function(){
+    return "thanks, you have ordered "+ this.crust + " and " +this.topping ;
 }
 $(document).ready(function(){
-$("form#select").send(function(event){
-    var inputtedName = $("input#name").val();
-    var inputLocation = $("inputLocation").val();
-    var newDetail = $("inputName, inputLocation");
+    $("#send").click(function(event){
+        event.preventDafault();
+        var crust = $("select#deep").val();
+        var size = $("select#lar").val();
+        var topping = $("select#onio").val();
+if((crust == 'pepperoni') && (size == 'large')){
+       
+}
+else if((crust == 'pepperoni') && (size == 'small')){
+
+}
+else if((crust == 'pepperoni') && (size == 'medium')) {
+
+}
+if((crust == 'mushrooms') && (size == 'large')){
+    
+}
+else if((crust == 'mushrooms') && (size == 'small')) {
+
+}
+else if((crust == 'mushrooms') && (size == 'medium')) {
+
+}
+if((crust == 'onions') && (size == 'large')){
+
+}
+else if((crust == 'onion') && (size == 'large'))
+    })
 })
-if ((pepperoni == large) && (crust == deep dish){
-    alert();
-});
->>>>>>> 279926391533bc8f54a89fd8ca888ebb7e699597
