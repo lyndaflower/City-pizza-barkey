@@ -35,10 +35,15 @@ body {
     background-color: white;
     color: black;
   }
-  #menu, {
+  .row {
     font-family: 'Oleo Script', cursive;
     font-family: 'Petit Formal Script', cursive;
-    background-image: url("https://images.pexels.com/photos/1260968/pexels-photo-1260968.jpg")
+    position: absolute; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    padding: 20px;
   }
   form {
       width: 600px;
@@ -51,6 +56,23 @@ body {
       background-size: cover;
       color: antiquewhite;
   }
-  #head{
+  #head, #par{
     font-family: 'Caveat Brush', cursive;
+    text-align: center;
   }
+  #head {
+      padding-block-start: 80px;
+  }
+  #par {
+      padding-block-end: 100px;
+  }
+  .menu {
+      background-image: url("https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  body {
+      background-image: url("https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg");
+      background-size: cover;
+  }
+
